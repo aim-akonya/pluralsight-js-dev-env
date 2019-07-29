@@ -9,7 +9,6 @@ environment:
     install:
         # Get the latest version of Node.js or io.js
         - ps: Install-Product node $env:nodejs_version
-
         # install modules
         - npm install
 
